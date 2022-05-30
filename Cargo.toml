@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 
-sha2 = "0.10.2"
 
+tx_module = { path = "./tx" }
 
+hash_module = { path = "./hash" }

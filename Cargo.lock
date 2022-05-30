@@ -57,6 +57,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "hash_module"
+version = "0.1.0"
+dependencies = [
+ "sha2",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.126"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -66,7 +73,8 @@ checksum = "349d5a591cd28b49e1d1037471617a32ddcda5731b99419008085f72d5a53836"
 name = "merkle-tree"
 version = "0.1.0"
 dependencies = [
- "sha2",
+ "hash_module",
+ "tx_module",
 ]
 
 [[package]]
@@ -79,6 +87,10 @@ dependencies = [
  "cpufeatures",
  "digest",
 ]
+
+[[package]]
+name = "tx_module"
+version = "0.1.0"
 
 [[package]]
 name = "typenum"
