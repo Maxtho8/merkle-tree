@@ -3,7 +3,6 @@
 Merkle tree is a data structure composed of hashes. The ends of the tree (the leaves) are hashed together in pairs. If the number of sheets is odd, then we hash with a copy of itself.  
 At the end we obtain the root hash, which allows to check the integrity of all the data of the tree since if a single transaction changes, the root hash also changes  
 
-
 <div style="text-align:center">
 <img width="500px" src="./img/schema.png"/>
 </div>
