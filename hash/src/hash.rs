@@ -1,5 +1,5 @@
 
-pub mod Hash {
+pub mod hash {
 
     use sha2::{Sha256, Digest};
 
